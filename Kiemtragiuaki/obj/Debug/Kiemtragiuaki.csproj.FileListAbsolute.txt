@@ -1,0 +1,10 @@
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\bin\Debug\Kiemtragiuaki.exe.config
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\bin\Debug\Data\DatabaseBangdiemthidau.mdf
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\bin\Debug\Data\DatabaseBangdiemthidau_log.ldf
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\bin\Debug\Kiemtragiuaki.exe
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\bin\Debug\Kiemtragiuaki.pdb
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.Frmnhaplieutiso.resources
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.Properties.Resources.resources
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.csproj.GenerateResource.Cache
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.exe
+D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.pdb

@@ -8,3 +8,16 @@ D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtra
 D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.csproj.GenerateResource.Cache
 D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.exe
 D:\A16064-Levankhai-WinForm-CSharp\Kiemtragiuaki\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.pdb
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\bin\Debug\Kiemtragiuaki.exe.config
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\bin\Debug\Kiemtragiuaki.exe
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\bin\Debug\Kiemtragiuaki.pdb
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.FrmKetqua.resources
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.Frmnhaplieutiso.resources
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.Properties.Resources.resources
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.csproj.GenerateResource.cache
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.csproj.CoreCompileInputs.cache
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.exe
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.pdb
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\bin\Debug\Data\DatabaseBangdiembongda.mdf
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\bin\Debug\Data\DatabaseBangdiembongda_log.ldf
+D:\Winforms\Kiemtragiuaki-winform\Kiemtragiuaki\obj\Debug\Kiemtragiuaki.csprojAssemblyReference.cache

@@ -11,6 +11,7 @@
     <AssemblyName>Kiemtragiuaki</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -59,6 +59,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseBangdiembongdaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseBangdiembongdaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKetqua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKetqua.Designer.cs">
+      <DependentUpon>FrmKetqua.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frmnhaplieutiso.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmKetqua.resx">
+      <DependentUpon>FrmKetqua.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmnhaplieutiso.resx">
       <DependentUpon>Frmnhaplieutiso.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,6 +94,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DatabaseBangdiembongdaDataSet.xsc">
+      <DependentUpon>DatabaseBangdiembongdaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseBangdiembongdaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseBangdiembongdaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseBangdiembongdaDataSet.xss">
+      <DependentUpon>DatabaseBangdiembongdaDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,13 +119,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\DatabaseBangdiemthidau.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Data\DatabaseBangdiemthidau_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>DatabaseBangdiemthidau.mdf</DependentUpon>
-    </Content>
     <None Include="Resources\icc-t20.jpg" />
     <None Include="Resources\do-choi-bop-chip-Farlin-TOY-15.jpg" />
   </ItemGroup>
@@ -120,6 +138,15 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\DatabaseBangdiembongda.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DatabaseBangdiembongda_log.ldf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>DatabaseBangdiembongda.mdf</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
